@@ -1,0 +1,11 @@
+﻿<Window x:Class="RenameFiles.ReadMe"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         Title="ReadMe" Height="300" Width="300" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="icon.ico">
+    <Grid>
+        
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="249" Width="272"><InlineUIContainer>
+    			<TextBox Height="249" TextWrapping="Wrap" Text="&#xD;&#xA;      本品为闲时之作，仅供个人只用，功能不算齐全，敬请谅解！&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;使用说明：&#xD;&#xA;1.要使重命名成功，必须在对应的功能前选中！&#xD;&#xA;2.重命名时，会先进行删除原文件名中的词语，再添加首位单词；&#xD;&#xA;3.要删除的原文件名中的词语，以换行隔开。&#xD;&#xA;&#xD;&#xA;版权说明：&#xD;&#xA;新木出品&#xD;&#xA;xinmumail@foxmail.com" Width="273"/>
+    		</InlineUIContainer></TextBlock>
+    </Grid>
+</Window>
